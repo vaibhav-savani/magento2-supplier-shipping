@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <supplier_shipping>
+                <active>1</active>
+                <model>Vaibhav\SupplierShipping\Model\Carrier\SupplierShipping</model>
+                <title>Supplier Shipping</title>
+                <name>Supplier Shipping</name>
+            </supplier_shipping>
+        </carriers>
+    </default>
+</config>
