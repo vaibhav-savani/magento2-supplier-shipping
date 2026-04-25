@@ -1,24 +1,18 @@
 {
-    "name": "vaibhav/module-supplier-shipping",
-    "description": "Custom Magento 2 module to calculate shipping charges based on supplier grouping with threshold logic and cart grouping.",
-    "type": "magento2-module",
-    "version": "1.0.0",
-    "license": [
-        "proprietary"
+  "name": "vaibhav/module-supplier-shipping",
+  "description": "Magento 2 module for supplier-based dynamic shipping with multi-supplier support and configurable rules.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": ["MIT"],
+  "autoload": {
+    "files": [
+      "registration.php"
     ],
-    "require": {
-        "php": "~7.4.0||~8.1.0||~8.2.0",
-        "magento/framework": "*",
-        "magento/module-checkout": "*",
-        "magento/module-shipping": "*",
-        "magento/module-catalog": "*"
-    },
-    "autoload": {
-        "files": [
-            "registration.php"
-        ],
-        "psr-4": {
-            "Vaibhav\\SupplierShipping\\": ""
-        }
+    "psr-4": {
+      "Vaibhav\\SupplierShipping\\": ""
     }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
 }
