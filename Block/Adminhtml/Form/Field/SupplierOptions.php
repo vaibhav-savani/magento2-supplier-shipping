@@ -30,6 +30,9 @@ class SupplierOptions extends Select
                 foreach ($attribute->getSource()->getAllOptions(false) as $option) {
                     $this->addOption($option['value'], $option['label']);
                 }
+
+
+
             }
         }
 
